@@ -1,0 +1,82 @@
+/**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+  background-color: #000000;
+  height: 100%;
+}
+
+body {
+  background-color: #000000;
+  padding: 0;
+  line-height: inherit;
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+  background-image: url("./assets/main-bg.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 390px;
+  width: 100%;
+  height: 100%;
+  max-height: 852px;
+  @apply flex flex-col items-center justify-center text-white;
+}
+
+.btn {
+  @apply text-xs font-bold py-2 px-4 rounded;
+}
+
+.btn-primary {
+  @apply bg-purple-600 text-white;
+}
+
+.btn-primary:hover {
+  @apply bg-purple-700;
+}
+
+.button:disabled {
+  @apply bg-gray-800;
+}
