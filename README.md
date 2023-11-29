@@ -1,16 +1,22 @@
-# Qwik City App ⚡️
+# Spike: Site with Qwik App
+
+This project is for test build a simple app with Qwik.
+
+Design: https://www.figma.com/community/file/1252514444056840911
+
+
+## Project Preview
+
+![pokemon](./app.gif)
+
+
+## Docs
 
 - [Qwik Docs](https://qwik.builder.io/)
 - [Discord](https://qwik.builder.io/chat)
 - [Qwik GitHub](https://github.com/BuilderIO/qwik)
 - [@QwikDev](https://twitter.com/QwikDev)
 - [Vite](https://vitejs.dev/)
-
----
-
-## Project Quickview
-
-![pokemon](./app.gif)
 
 ## Project Structure
 
